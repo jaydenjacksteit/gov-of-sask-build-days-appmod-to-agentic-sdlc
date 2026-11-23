@@ -3,7 +3,7 @@
 ## Metadata
 
 - **Owner:** Pending maintainer assignment
-- **Status:** Draft
+- **Status:** Approved
 - **Source root:** `legacy-src/dotnet-bookcatalog/shared-legacy-app`
 - **Related issue:** Not created
 
@@ -160,23 +160,22 @@ by the request-data coupling that would carry into later modernization.
 
 ### Unresolved questions
 
-- [ ] Human maintainer or team owner has not been assigned.
-- [ ] Human reviewer name and approval date are pending.
-- [ ] Approved specification commit SHA is pending.
-- [ ] Runtime IIS Express/LocalDB availability is unknown.
+- Runtime IIS Express/LocalDB availability has not been verified. Confirm it
+  before attempting runtime smoke checks; if unavailable, record the exact
+  prerequisite blocker and do not claim runtime coverage.
 
-The specification is not ready for approval until the human-review fields are
-complete and runtime prerequisites or exact blockers are recorded.
+Runtime availability does not change the approved scope. The recorded MSBuild
+baseline blocker remains an execution prerequisite to resolve or report.
 
 ### Boundary and validation review
 
-- [ ] Evidence citations were checked against the repository.
-- [ ] Allowed paths include all anticipated changes and nothing unrelated.
-- [ ] The primary validation command is safe, non-interactive, and runnable
+- [x] Evidence citations were checked against the repository.
+- [x] Allowed paths include all anticipated changes and nothing unrelated.
+- [x] The primary validation command is safe, non-interactive, and runnable
       from the stated source root.
-- [ ] Acceptance criteria cover normal, failure, boundary, compatibility, and
+- [x] Acceptance criteria cover normal, failure, boundary, compatibility, and
       privacy behavior.
-- [ ] Exclusions prevent unrelated modernization or cleanup.
+- [x] Exclusions prevent unrelated modernization or cleanup.
 
 ### Stop conditions
 
@@ -200,12 +199,10 @@ Stop and request human guidance if:
 
 ### Human approval
 
-- [ ] I reviewed the evidence, unresolved questions, allowed paths, acceptance
+- [x] I reviewed the evidence, unresolved questions, allowed paths, acceptance
       criteria, validation command, exclusions, risks, and stop conditions.
-- **Reviewer:** Pending human review
-- **Approval date:** Pending human review
-- **Approved specification commit:** Pending commit and human approval
+- **Reviewer:** Jayden Jacksteit
+- **Approval date:** 2026-11-23
+- **Approved specification commit:** `7e6432bdc6d823ad11267e597650015f97070bf7`
 
-Change **Status** to `Approved` only after the checkbox is selected and the
-reviewer, date, and commit fields are complete. Planning approval authorizes
-issue preparation, not implementation.
+Planning approval authorizes issue preparation, not implementation.
