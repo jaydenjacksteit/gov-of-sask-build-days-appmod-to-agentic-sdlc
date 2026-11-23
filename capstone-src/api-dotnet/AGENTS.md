@@ -11,6 +11,7 @@ nearest local guide; do not assume one file automatically overrides another.
 - `tests/WorkItems.Api.Tests/` contains the xUnit repository tests.
 - The shared API shape is owned by
   [`../contracts/openapi.yml`](../contracts/openapi.yml).
+- Test repository behavior through `InMemoryWorkItemRepository` in `src/WorkItems.Api/InMemoryWorkItemRepository.cs`, using `StubTimeProvider` for deterministic timestamps.
 
 ## Work and validate
 

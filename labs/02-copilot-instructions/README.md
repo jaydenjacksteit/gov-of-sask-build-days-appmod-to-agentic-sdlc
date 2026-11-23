@@ -205,18 +205,18 @@ technology-specific behavior and local navigation.
 
 ## Completion checklist
 
-- [ ] The guidance trace includes the global baseline, root guide, nearest
+- [x] The guidance trace includes the global baseline, root guide, nearest
       local guide, and all matching `applyTo` files.
-- [ ] The instruction filename ends in `.instructions.md`.
-- [ ] YAML frontmatter begins and ends with `---`.
+- [x] The instruction filename ends in `.instructions.md`.
+- [x] YAML frontmatter begins and ends with `---`.
 - [ ] `applyTo` is quoted and rooted in exactly one intended source tree.
-- [ ] The instruction contains three to five actionable, compatible rules.
-- [ ] The co-located `AGENTS.md` change is one concise pointer or invariant.
-- [ ] All referenced paths and commands exist or are explicitly future-facing.
-- [ ] A fresh matching-file session uses the expected guidance.
-- [ ] A fresh non-matching-file session does not use the new path instruction.
-- [ ] The evidence explains what belongs globally and why.
-- [ ] `git diff --check` reports no whitespace errors.
+- [x] The instruction contains three to five actionable, compatible rules.
+- [x] The co-located `AGENTS.md` change is one concise pointer or invariant.
+- [x] All referenced paths and commands exist or are explicitly future-facing.
+- [x] A fresh matching-file session uses the expected guidance.
+- [x] A fresh non-matching-file session does not use the new path instruction.
+- [x] The evidence explains what belongs globally and why.
+- [x] `git diff --check` reports no whitespace errors.
 
 After completing the exercise, facilitators can compare the work with the
 [path-specific reference](../../facilitator/reference-solutions/copilot/lab-02/capstone-java-test-guidance.instructions.md)
